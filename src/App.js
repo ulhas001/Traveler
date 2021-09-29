@@ -6,6 +6,8 @@ import axios from 'axios';
 import {format} from 'timeago.js'
 import Register from './components/Register';
 import Login from './components/Login';
+import dotenv from 'dotenv'
+dotenv.config()
 
 function App() {
   const myStorage = window.localStorage;
